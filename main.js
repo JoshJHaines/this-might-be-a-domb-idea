@@ -20,3 +20,8 @@ const image = document.querySelector("img");
 image.src = "http://www.tioxic.com/wp-content/uploads/trex_4.jpg";
 image.height = "300";
 
+const items = document.querySelectorAll(".item")
+console.log(items[15])
+
+
+items[15].textContent = `Won\'t get fooled again.`
